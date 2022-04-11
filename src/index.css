@@ -5,9 +5,48 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: black; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.quote-box{
+  position: absolute;
+  margin: 200px 500px;
+  width: 550px;
+  background-color: white;
+  border-radius: 10px;
+}
+.text p{
+  font-size: 30px;
+  /* font-family: 'Courier New', Courier, monospace; */
+  text-align: center;
+  padding-top: 30px;
+}
+.author p{
+  text-align: right;
+  padding-right: 50px;
+}
+.new-quote{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+}
+.new-quote p{
+  margin-left: 200px;
+  border: 2px solid black;
+  cursor: pointer;
+  padding: 3px 10px;
+  
+  
+}
+.new-quote p:hover{
+  color: white;
+
+}
+.wrapper{
+  height: 100vh;
 }
